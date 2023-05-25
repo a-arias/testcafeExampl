@@ -1,0 +1,14 @@
+{
+  "name": "ninjatestcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "BROWSER=${BROWSER:-all}; node node_modules/testcafe/bin/testcafe.js $BROWSER tests/e2e/listDevices.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^2.6.0"
+  }
+}
